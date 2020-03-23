@@ -211,6 +211,11 @@ struct Dance
                 //assert(cell != -1 && val != -1);
                 inout_[cell] = val;
             }
+
+            for(int i = 0; i < N; i++){
+                printf("%d", inout_[i]);
+            }
+            printf("\n");
             return true;
         }
 
